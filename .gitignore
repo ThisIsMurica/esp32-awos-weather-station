@@ -1,0 +1,35 @@
+# Python / editor
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Runtime audio, local recordings and logs
+output/
+*.wav
+*.log
+
+# Locally installed/proprietary DECtalk distributions and credentials
+DECtalk_runtime/
+Dectalk/
+speak-win64/
+DECtalk.conf
+*.dll
+*.exe
+*.dic
+*.lic
+
+# Arduino generated binaries
+build/
+*.bin
+*.elf
+*.hex
+
+# Files from personal machines
+Thumbs.db
+.DS_Store
